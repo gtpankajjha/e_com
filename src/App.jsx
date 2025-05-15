@@ -12,7 +12,7 @@ function App() {
   const [showCart, setShowCart] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
   const navigate = useNavigate();
-
+// logic for add to cart
   const addToCart = (product) => {
     setCart(prev => {
       const existing = prev.find(p => p.id === product.id);
