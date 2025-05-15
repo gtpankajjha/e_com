@@ -1,5 +1,5 @@
 import React from 'react';
-import './CartSummary.css';
+import './CartPage.css';
 
 const CartSummary = ({ cart, onCheckout }) => (
   <div className="cart-summary">
