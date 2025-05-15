@@ -1,0 +1,30 @@
+.cart-summary {
+  padding: 1rem;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.cart-summary h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cart-item {
+  margin-bottom: 0.5rem;
+}
+
+.checkout-button {
+  margin-top: 1rem;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.checkout-button:hover {
+  background-color: #1e40af;
+}

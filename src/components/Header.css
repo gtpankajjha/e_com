@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #dc2626; /* red-600 */
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+}

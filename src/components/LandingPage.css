@@ -1,0 +1,39 @@
+/* src/components/LandingPage.css */
+
+.landing-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  margin-bottom: 12px;
+}
+
+.add-to-cart-btn {
+  background-color: #22c55e; /* green-500 */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #16a34a; /* green-600 */
+}
