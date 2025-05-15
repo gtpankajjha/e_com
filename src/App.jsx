@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import LandingPage from './components/LandingPage';
-import CartSummary from './components/CartSummary';
+import CartSummary from './components/cartSummary';
 import LoginPage from './components/LoginPage';
 import PaymentPage from './components/PaymentPage';
 
